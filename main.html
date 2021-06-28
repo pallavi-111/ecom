@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ria Store | Ecommerce Website Design</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+
+<body>
+
+    <!--<div align="left">
+	<h1>Ria Store !!!</h1>-->
+<div class="header">
+<div class="container">
+<!---	<div align="left">
+	<h1>Ria Store !!!</h1>---->
+	<div class="navbar">
+	<div class="logo">
+	<a href="main.html"><img src="image/logo1.png" width="125px"></a>
+</div>
+<nav>
+	<ul id="MenuItems">
+       <li><a href="main.html">Home</a></li>
+       <li><a href="product.html">Products</a></li>
+       <li><a href="">About</a></li>
+       <li><a href="">Contact</a></li>
+       <li><a href="account.html">Account</a></li>
+    </ul>
+</nav>
+<a href="cart.html"><img src="image/cart.png" width="30px" height="30px"></a>
+<img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+<div class="row">
+	<div class="col-2">
+	<h2>Give Your Everyday<br> A New Style!</h2>
+	<p>Clothes are family....Being well-dressed is my kind of happiness.</p>
+	<a href="" class="btn">Explore Now &#8594;</a>
+	</div>
+    <div class="col-2">	
+    	<img src="image/girl.jpg">
+    </div>
+    	<!----featured categories----->
+    <div class="categories">
+    	<div class="small container">
+    	<div class="row">
+    		<div class="col-3">
+    		<img src="image/jeans.jpg">
+    		</div>
+        <div class="col-3">
+    			<img src="image/jacket.jpg">
+    		</div>
+    		<div class="col-3">
+    			<img src="image/shoe.jpg">
+    		</div>
+    	</div>
+</div>
+</div>
+      <!----featured products----->
+      <div class="small-container">
+      	<h3 class="title">Featured Product</h3>
+      	<div class="row">
+      		<div class="col-4">
+      			<a href="productdetails.html"><img src="image/red.jpg"></a>
+      			<a href="productdetails.html"><h4>Red Printed T-Shirt</h4></a>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"></i>
+      			</div> 
+      			<p>$50.00</p>
+      		</div>
+            <div class="col-4">
+      			<img src="image/jwell.jpg">
+      			<h4>Artificiall Jwellery</h4>
+      			<div class="rating">
+      				<i class="fa fa-star" aria-hidden="true"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-half-o"></i>
+      			</div>
+      			<p>$50.00</p>
+                </div>
+                 <div class="col-4">
+      			<img src="image/dress.jpg">
+      			<h4>Red Dress</h4>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"></i>
+      			</div>
+      			<p>$50.00</p>
+                </div>
+                <div class="col-4">
+      			<img src="image/Handbag.jpg">
+      			<h4>Handbag</h4>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"></i>
+      			</div>
+      		<p>$50.00</p>
+      		</div>
+      	</div>
+      	<h3 class="title">Latest Product</h3>
+      	<div class="row">
+      		<div class="col-4">
+      			<img src="image/product1.png">
+      			<h4>Watch</h4>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"></i>
+      			</div>
+      			<p>$50.00</p>
+      		</div>
+            <div class="col-4">
+      			<img src="image/product2.png">
+      			<h4>Summerdress</h4>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-half-o"></i>
+      			</div>
+      			<p>$50.00</p>
+               </div>
+              <div class="col-4">
+      			<img src="image/product3.png">
+      			<h4>Sunglass</h4>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"></i>
+      			</div>
+      			<p>$50.00</p>
+               </div>
+               <div class="col-4">
+      			<img src="image/product4.png">
+      			<h4>Shoes</h4>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"></i>
+      			</div>
+      		<p>$50.00</p>
+      		</div>
+      	<div class="row">
+      		<div class="col-4">
+      			<img src="image/product5.png">
+      			<h4>Shocks</h4>
+      			<div class="rating">
+      				<i class="fa fa-star" aria-hidden="true"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"aria-hidden="true"></i>
+      			</div>
+      			<p>$50.00</p>
+      		</div>
+         <div class="col-4">
+      			<img src="image/product6.png">
+      			<h4>Blue Denim</h4>
+      			<div class="rating">
+      				<i class="fa fa-star" aria-hidden="true"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-half-o"></i>
+      			</div>
+      			<p>$50.00</p>
+               </div>
+          <div class="col-4">
+      			<img src="image/product7.png">
+      			<h4>Shirt</h4>
+      			<div class="rating">
+      				<i class="fa fa-star" aria-hidden="true"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"aria-hidden="true"></i>
+      			</div>
+      			<p>$50.00</p>
+            </div>
+            <div class="col-4">
+      			<img src="image/product8.png">
+      			<h4>Black T-Shirt</h4>
+      			<div class="rating">
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star"></i>
+      				<i class="fa fa-star-o"aria-hidden="true"></i>
+      			</div>
+      		<p>$50.00</p>
+      		</div>
+      	</div>
+      </div>
+      <!-----offer------>
+      <div class="offer">
+      	<div class="small-container">
+      		<div class="row">
+      			<div class="col-2">
+      			<img src="image/product9.png" class="offer-img">
+      			</div>
+      			<div class="col-2">
+      			<p>Exclusively Available on Riastore</p>
+      			<h5>Smart Band4</h5>
+      	<small>The Mi Smart Band 4 featues a 39.9%larger AMOLED color full-touch display with adjustable brigthness,so everything is clear as can be.</small>
+      	<a href="" class="btn">Buy Now &#8594;</a>
+      	</div>
+      </div>
+  </div>
+</div>
+</div>
+<!----------Testiminial------>>
+<div class="testimonial">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>Lorem ipsum is simply a dummy text of the printing and typesetting industry.</p>
+				<div class="rating">
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star-o"></i>
+		        </div>
+		        <img src="image/user.jpg">
+		        <h5>Christina sair</h5>
+	            </div>
+                <div class="col-3">
+				<i class="fa fa-quote-left"></i>
+				<p>Lorem ipsum is simply a dummy text of the printing and typesetting industry.</p>
+				<div class="rating">
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star"></i>
+      			<i class="fa fa-star-o"></i>
+		        </div>
+		<img src="image/user2.jpg">
+		<h5>Joseph</h5>
+	</div>
+</div>
+</div>
+</div>
+<!--------brands----->
+<div class="brands">
+	<div class="small-container">
+		<div class="row">
+			<div class="col-5">
+		   <img src="image/oppo.png" alt="logo" width="200" height="60">
+			</div>
+			<div class="col-5">
+			<img src="image/converse.png" alt="logo" width="200" height="60">
+			</div>
+            <div class="col-5">
+			<img src="image/people.png" alt="logo" width="200" height="60">
+			</div>
+			<div class="col-5">
+			<img src="image/cocacola.png" alt="logo" width="200" height="60">
+			</div>
+			<div class="col-5">
+			<img src="image/paypal.png" alt="logo" width="200" height="60">
+			</div>
+		</div>
+	</div>
+</div>
+<!--------footer-------->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+			<h6>Download Our App</h6>
+			<p>Download App for Android and ios mobile phone.</p>
+			<div class="app-logo">
+				<img src="image/googleapp.png">
+			</div>
+        </div>
+       <div class="footer-col-2">
+			<img src="image/logo.jpg" alt="logo" width="200" height="80">
+			<p>Our purpose is to sustainably make the pleasure and benefits of fashion accessible to the many</p> 
+    </div>
+    <div class="footer-col-3">
+			<h6>Useful Links</h6>
+			<ul>
+				<li>Coupons</li>
+				<li>Blog post</li>
+				<li>Return policy</li>
+			</ul>
+
+           <div class="footer-col-4">
+			<h6>Follow us</h6>
+			<ul>
+			    <li>Facebook</li>
+				<li>instagram</li>
+				<li>youtube</li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<p class="Copyright">Copyright 2021-Fashion fiesta</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-----js for toggle menu---->
+<script>
+	var MenuItems = document.getElementById("MenuItems"); 
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.Style.maxHeight =" 0px";
+		}
+	}
+</script>
+</body>
+</html>

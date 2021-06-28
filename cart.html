@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>All Products - Ria Store</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+ <!--<div align="left">
+	<h1>Ria Store !!!</h1>-->
+<div class="container">
+<!----<div align="left">
+	<h1>Ria Store !!!</h1>---->
+	<div class="navbar">
+    <div class="logo">
+  <a href="main.html"><img src="image/logo1.png" width="125px"></a>
+</div>
+<nav>
+	<ul id="MenuItems">
+        <li><a href="main.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+    </ul>
+</nav>
+<a href="cart.html"><img src="image/cart.png" width="30px" height="30px"></a>
+<img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+</div>
+</div>
+<!-----cart item details---->
+<div class="small-container cart-page">
+
+   <table>
+     <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Subtotal</th>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="image/redtshirt.jpg">
+          <div>
+            <p>Red printed t-shirt</p>
+            <small>Price: $50.00</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+      </div>
+      </td>
+      <td><input type="number" value="1"></td>
+      <td>$50.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="image/buy2.jpg">
+          <div>
+            <p>Handbag</p>
+            <small>Price: $65.00</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+      </div>
+      </td>
+      <td><input type="number" value="1"></td>
+      <td>$65.00</td>
+    </tr>
+    <tr>
+      <td>
+        <div class="cart-info">
+          <img src="image/buy3.jpg">
+          <div>
+            <p>Shoes</p>
+            <small>Price: $80.00</small>
+            <br>
+            <a href="">Remove</a>
+        </div>
+      </div>
+      </td>
+      <td><input type="number" value="1"></td>
+      <td>$80.00</td>
+    </tr>
+   </table>
+   <div class="total-price">
+    <table>
+      <tr>
+        <td>Subtotal</td>
+        <td>$195.00</td>
+      </tr>
+      <tr>
+        <td>Tax</td>
+        <td>$5.00</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>$200.00</td>
+      </tr>
+      
+    </table>
+</div>
+
+  
+<!--------footer-------->
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+			<h6>Download Our App</h6>
+			<p>Download App for Android and ios mobile phone.</p>
+			<div class="app-logo">
+				<img src="image/googleapp.png">
+			</div>
+        </div>
+       <div class="footer-col-2">
+			<img src="image/logo.jpg" alt="logo" width="200" height="80">
+			<p>Our purpose is to sustainably make the pleasure and benefits of fashion accessible to the many</p> 
+    </div>
+    <div class="footer-col-3">
+			<h6>Useful Links</h6>
+			<ul>
+				<li>Coupons</li>
+				<li>Blog post</li>
+				<li>Return policy</li>
+			</ul>
+
+           <div class="footer-col-4">
+			<h6>Follow us</h6>
+			<ul>
+			    <li>Facebook</li>
+				<li>instagram</li>
+				<li>youtube</li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<p class="Copyright">Copyright 2021-Fashion fiesta</p>
+</div>
+</div>
+</div>
+</div>
+<!-----js for toggle menu---->
+<script>
+	var MenuItems = document.getElementById("MenuItems"); 
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight == "0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else
+		{
+			MenuItems.Style.maxHeight =" 0px";
+		}
+	}
+</script>
+</body>
+</html>
